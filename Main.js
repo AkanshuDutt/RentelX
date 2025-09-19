@@ -12,6 +12,10 @@ menuBtn.addEventListener("click", (e) => {
 navLinks.addEventListener("click", (e) => {
   navLinks.classList.remove("open");
   menuBtnIcon.setAttribute("class", "ri-menu-line");
+
+  // navLinks.addEventListener("click", (e) => {
+  // navLinks.classList.remove("open");
+  // menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
 
 const scrollRevealOption = {
@@ -80,4 +84,5 @@ ScrollReveal().reveal(".download__content p", {
 ScrollReveal().reveal(".download__links", {
   ...scrollRevealOption,
   delay: 1500,
+
 });
