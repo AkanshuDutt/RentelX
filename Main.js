@@ -86,3 +86,4 @@ ScrollReveal().reveal(".download__links", {
   delay: 1500,
 
 });
+
